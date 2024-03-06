@@ -1,0 +1,768 @@
+/* ESTILIZAÇÃO GERAL DAS 12 PÁGINAS DO MEU SITE FINAL */
+/* PÁGINA PRINCIPAL */
+
+
+/* CUSTOMIZAÇÃO ABAIXO - NAVBAR */
+.custom-navbar-bg {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar-logo {
+  margin-left: 50px;
+}
+
+.custom-navbar-bg {
+  background-color: #475435;
+  color: #ffffff
+}
+
+.custom-text-color {
+  font-family: sans-serif !important;
+  color: #ffffff !important;
+}
+
+.nav-sobre-mim {
+  margin-left: 175px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.nav-item {
+  margin-left: 175px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+
+/* CSS personalizado para adicionar uma borda entre o navbar e o carrossel */
+.navbar {
+  border-bottom: 3px solid #573333;
+  /* Adiciona uma borda inferior de 1 pixel com a cor desejada (no exemplo, #ddd) */
+  margin-bottom: 0px;
+  /* Ajusta a margem inferior para espaçamento entre o navbar e o carrossel */
+}
+
+
+/* CUSTOMIZAÇÃO ABAIXO - CARROSSEL */
+/* Centralizar e redimensionar as imagens */
+.borda-inferior {
+  border-bottom: 3px solid #573333;
+}
+
+.carousel-item img {
+  width: 100%;
+  /* Ajusta a largura da imagem para ocupar 100% do contêiner do carrossel */
+  max-height: 550px;
+  /* Define a altura máxima da imagem */
+  max-width: 1500px;
+  object-fit: cover;
+  /* Garante que a imagem mantenha a proporção e cubra todo o contêiner */
+  margin: 0 auto;
+  /* Centraliza horizontalmente a imagem */
+}
+
+/* Estilo personalizado para as setas */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30%;
+  /* Ajusta a largura das setas conforme necessário */
+}
+
+/* Centraliza verticalmente as setas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  margin-top: -25px;
+  /* Ajuste conforme necessário */
+}
+
+/* EDIÇÃO DAS PALAVRAS DENTRO DO CARROSSEL */
+.carousel-caption h5 {
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bolder;
+  /* Peso da fonte do título */
+}
+
+.carousel-caption p {
+  color: #ffffff;
+  /* Cor do texto do parágrafo */
+  font-size: 1.0rem;
+  /* Tamanho da fonte do parágrafo */
+  font-weight: bold;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Sombra do texto */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+}
+
+.carousel-caption h5:hover,
+.carousel-caption p:hover {
+  color: #F22F1D
+    /*nova cor ao passar o mouse */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  font-family: 'Franklin Gothic Medium';
+}
+
+
+
+/* CÓDIGOS ABAIXO ESPECIALMENTE PARA A EDIÇÃO DOS CARDS!! */
+
+.text-center {
+  /* Este código não é para os cards, é para o título de antes deles */
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 2.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 4px 4px 7px #C0D2A1;
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 10px;
+  /* Espaçamento interno */
+  border-radius: 54px;
+  /* Borda arredondada */
+  border: 4px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+  text-transform: uppercase;
+  /* Transformar texto em maiúsculas */
+}
+
+.cor-ponteiro:hover {
+  color: rgb(192, 189, 89);
+  /* Esse hover significa algo mais especifico dentro do texto, a cor vai mudar ao passar o ponteiro */
+}
+
+
+.card {
+  border-radius: 100 !important;
+  position: absolute;
+  margin-top: auto;
+}
+
+.card-img-top {
+  border-radius: 50 !important;
+  /* Borda Arredondada da img, e tamanho, e tamanho parão */
+  height: 200px;
+}
+
+.btn-outline-success {
+  border-radius: 20 !important;
+  /* Borda Arredondada do botão */
+}
+
+.card-title-CH {
+  position: absolute;
+  margin-top: auto;
+}
+
+.card-img-top {
+  border-bottom: 3px solid #000000;
+}
+
+
+
+
+/* CARDS SOBRE TECNOLOGIA */
+.text-center-tec {
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 2.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #CDF0FC;
+  /* Cor de fundo com opacidade */
+  padding: 10px;
+  /* Espaçamento interno */
+  border-radius: 54px;
+  /* Borda arredondada */
+  border: 3px solid #A52A7F;
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+  text-transform: uppercase;
+  /* Transformar texto em maiúsculas */
+}
+
+.cor-ponteiro-tec:hover {
+  color: #A52A7F;
+}
+
+.custom-card {
+  color: #09120b;
+  /* Cor do texto */
+  border: 2px solid #0080ff;
+  /* Cor da borda */
+  border-radius: 10px;
+  /* Borda arredondada, se desejado */
+
+}
+
+.card-img-top-tec {
+  border-bottom: 3px solid #ffffff;
+}
+
+
+
+
+.borda-fundo {
+  width: 100%;
+  height: 250px;
+  background-color: #475435;
+}
+
+.borda-fundo {
+  border-bottom: 3px solid #573333;
+  /* Adiciona uma borda inferior de 1 pixel com a cor desejada (no exemplo, #ddd) */
+  margin-bottom: 0px;
+  /* Ajusta a margem inferior para espaçamento entre o navbar e o carrossel */
+
+
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1 rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  padding: 10px;
+  /* Espaçamento interno */
+  border-radius: 6px;
+  /* Borda arredondada */
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+}
+
+
+
+
+
+
+
+
+/* PÁGINA CH */
+
+.text-center-ch {
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 8px;
+  /* Espaçamento interno */
+  border-radius: 20px;
+  /* Borda arredondada */
+  border: 3px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+  text-transform: uppercase;
+  /* Transformar texto em maiúsculas */
+
+}
+
+.cor-ponteiro-ch:hover {
+  color: #C0D2A1;
+}
+
+.imagem1-ch {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+}
+
+.paragrafo1-ch {
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  font-size: 110%;
+  font-family:'Georgia';
+
+}
+
+.paragrafo2-ch {
+  text-align: justify;
+  margin-left: 40%;
+  margin-right: 8%;
+  margin-top: -40%;
+  margin-bottom: 15%;
+  font-size: 110%;
+  font-family:'Georgia';
+
+}
+
+
+
+
+
+/* PÁGINA CN */
+
+.text-center-cn {
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 8px;
+  /* Espaçamento interno */
+  border-radius: 20px;
+  /* Borda arredondada */
+  border: 3px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+  text-transform: uppercase;
+  /* Transformar texto em maiúsculas */
+}
+.cor-ponteiro-cn:hover {
+  color: #C0D2A1;
+}
+
+.paragrafo1-cn {
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+.imagem1-cn {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left: 23%;
+}
+.linkyt-cn {
+  cursor: pointer;
+  margin-left: 41%;
+
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.0rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 8px;
+  border-radius: 15px;
+  border: 3px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  font-family: 'Lucida SansUnicode';
+  text-transform: uppercase;
+}
+.cor-pnteiro-link:hover {
+  color: rgb(55, 147, 155);
+}
+
+
+
+.imagem2-cn {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left: 0%;
+}
+
+.paragrafo2-cn {
+  text-align: justify;
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-top: -35%;
+  margin-bottom: 15%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+
+
+
+
+
+/* PÁGINA MT */
+
+.text-center-mt {
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 8px;
+  /* Espaçamento interno */
+  border-radius: 20px;
+  /* Borda arredondada */
+  border: 3px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+  text-transform: uppercase;
+  /* Transformar texto em maiúsculas */
+}
+.cor-ponteiro-cn:hover {
+  color: #C0D2A1;
+}
+
+.paragrafo1-mt {
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+.imagem1-mt {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left: 23%;
+}
+
+.imagem2-mt {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left: 0%;
+}
+
+.paragrafo2-mt {
+  text-align: justify;
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-top: -35%;
+  margin-bottom: 15%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+
+
+
+/* PÁGINA LG */
+
+.text-center-lg {
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 8px;
+  /* Espaçamento interno */
+  border-radius: 20px;
+  /* Borda arredondada */
+  border: 3px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+  text-transform: uppercase;
+  /* Transformar texto em maiúsculas */
+}
+.cor-ponteiro-lg:hover {
+  color: #C0D2A1;
+}
+
+.paragrafo1-lg {
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+.imagem1-lg {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left: 23%;
+}
+
+.imagem2-lg {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left: 0%;
+}
+.linkyt-lg {
+  cursor: pointer;
+  margin-left: 13%;
+
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.0rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 8px;
+  border-radius: 15px;
+  border: 3px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  font-family: 'Lucida SansUnicode';
+  text-transform: uppercase;
+}
+
+.paragrafo2-lg {
+  text-align: justify;
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-top: -35%;
+  margin-bottom: 15%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+
+/* PÁGINA TI */
+
+.text-center-ti {
+  text-align: center;
+  color: #ffffff;
+  /* Cor do texto do título */
+  font-size: 1.5rem;
+  /* Tamanho da fonte do título */
+  font-weight: bold;
+  /* Peso da fonte do título */
+  text-shadow: 3px 4px 6px rgba(0.5, 0.5, 0.5, 1);
+  /* Sombra do texto */
+  background-color: #475435;
+  /* Cor de fundo com opacidade */
+  padding: 8px;
+  /* Espaçamento interno */
+  border-radius: 20px;
+  /* Borda arredondada */
+  border: 3px solid #ffffff;
+  transition: color 0.3s ease-in-out;
+  /* Transição suave de cor */
+  font-family: 'Lucida SansUnicode';
+  /* Escolha de fonte */
+  text-transform: uppercase;
+  /* Transformar texto em maiúsculas */
+}
+.cor-ponteiro-ti:hover {
+  color: #C0D2A1;
+}
+
+.paragrafo1-ti {
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+.imagem1-ti {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left:29%;
+}
+
+.imagem2-ti {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 36px;
+  /* Borda arredondada */
+    margin-left: 0%;
+}
+
+.paragrafo2-ti {
+  text-align: justify;
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-top: -35%;
+  margin-bottom: 15%;
+  font-size: 114%;
+  font-family:'Georgia';
+
+}
+
+
+
+
+
+/* PÁGINA SOBRE MIM */
+
+.imagem1-sb {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 1000px;
+  /* Borda arredondada */
+    margin-left:40%;
+}
+
+.imagem2-sb {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 60px;
+  /* Borda arredondada */
+    margin-left:60%;
+}
+
+.paragrafo1-sb {
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 114%;
+  font-family:'Georgia';
+}
+
+.paragrafo2-sb {
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 45%;
+  margin-top: -19%;
+  margin-bottom: 5%;
+  font-size: 114%;
+  font-family:'Georgia';
+}
+
+
+
+
+
+/* PÁGINA AUTOMAÇÃO */
+
+.imagem1-auto {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  border: 4px solid #000000;
+  /* Cor da borda */
+  border-radius: 80px;
+  /* Borda arredondada */
+    margin-left: 1%;
+}
+
+
+.paragrafo1-auto {
+  text-align: justify;
+  margin-left: 45%;
+  margin-right: 1%;
+  margin-top: -24%;
+  margin-bottom: 5%;
+  font-size: 100%;
+  font-family:'Georgia';
+}
